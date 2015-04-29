@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		1C3208A41AF0B0F200479804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208A31AF0B0F200479804 /* main.m */; };
 		1C3208A71AF0B0F200479804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208A61AF0B0F200479804 /* AppDelegate.m */; };
-		1C3208AA1AF0B0F200479804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208A91AF0B0F200479804 /* ViewController.m */; };
-		1C3208AD1AF0B0F200479804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3208AB1AF0B0F200479804 /* Main.storyboard */; };
 		1C3208AF1AF0B0F200479804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3208AE1AF0B0F200479804 /* Images.xcassets */; };
-		1C3208B21AF0B0F200479804 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3208B01AF0B0F200479804 /* LaunchScreen.xib */; };
 		1C3208BE1AF0B0F200479804 /* DaiSurvivorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208BD1AF0B0F200479804 /* DaiSurvivorTests.m */; };
+		1C3208C81AF0B12400479804 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3208C71AF0B12400479804 /* Default-568h@2x.png */; };
+		1C3208CD1AF0B19300479804 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208CB1AF0B19300479804 /* MainViewController.m */; };
+		1C3208CE1AF0B19300479804 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3208CC1AF0B19300479804 /* MainViewController.xib */; };
+		1C3208D11AF0B50600479804 /* DaiSurvivor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3208D01AF0B50600479804 /* DaiSurvivor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		1C3208A31AF0B0F200479804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C3208A51AF0B0F200479804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C3208A61AF0B0F200479804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C3208A81AF0B0F200479804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C3208A91AF0B0F200479804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C3208AC1AF0B0F200479804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C3208AE1AF0B0F200479804 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1C3208B11AF0B0F200479804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C3208B71AF0B0F200479804 /* DaiSurvivorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaiSurvivorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3208BC1AF0B0F200479804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3208BD1AF0B0F200479804 /* DaiSurvivorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaiSurvivorTests.m; sourceTree = "<group>"; };
+		1C3208C71AF0B12400479804 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C3208CA1AF0B19300479804 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1C3208CB1AF0B19300479804 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1C3208CC1AF0B19300479804 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1C3208CF1AF0B50600479804 /* DaiSurvivor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiSurvivor.h; sourceTree = "<group>"; };
+		1C3208D01AF0B50600479804 /* DaiSurvivor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiSurvivor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,13 @@
 		1C3208A01AF0B0F200479804 /* DaiSurvivor */ = {
 			isa = PBXGroup;
 			children = (
+				1C3208C91AF0B14800479804 /* DaiSurvivor */,
 				1C3208A51AF0B0F200479804 /* AppDelegate.h */,
 				1C3208A61AF0B0F200479804 /* AppDelegate.m */,
-				1C3208A81AF0B0F200479804 /* ViewController.h */,
-				1C3208A91AF0B0F200479804 /* ViewController.m */,
-				1C3208AB1AF0B0F200479804 /* Main.storyboard */,
+				1C3208CA1AF0B19300479804 /* MainViewController.h */,
+				1C3208CB1AF0B19300479804 /* MainViewController.m */,
+				1C3208CC1AF0B19300479804 /* MainViewController.xib */,
 				1C3208AE1AF0B0F200479804 /* Images.xcassets */,
-				1C3208B01AF0B0F200479804 /* LaunchScreen.xib */,
 				1C3208A11AF0B0F200479804 /* Supporting Files */,
 			);
 			path = DaiSurvivor;
@@ -96,6 +99,7 @@
 		1C3208A11AF0B0F200479804 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C3208C71AF0B12400479804 /* Default-568h@2x.png */,
 				1C3208A21AF0B0F200479804 /* Info.plist */,
 				1C3208A31AF0B0F200479804 /* main.m */,
 			);
@@ -117,6 +121,15 @@
 				1C3208BC1AF0B0F200479804 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C3208C91AF0B14800479804 /* DaiSurvivor */ = {
+			isa = PBXGroup;
+			children = (
+				1C3208CF1AF0B50600479804 /* DaiSurvivor.h */,
+				1C3208D01AF0B50600479804 /* DaiSurvivor.m */,
+			);
+			path = DaiSurvivor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,11 @@
 				TargetAttributes = {
 					1C32089D1AF0B0F200479804 = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					1C3208B61AF0B0F200479804 = {
 						CreatedOnToolsVersion = 6.2;
@@ -199,9 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3208AD1AF0B0F200479804 /* Main.storyboard in Resources */,
-				1C3208B21AF0B0F200479804 /* LaunchScreen.xib in Resources */,
 				1C3208AF1AF0B0F200479804 /* Images.xcassets in Resources */,
+				1C3208CE1AF0B19300479804 /* MainViewController.xib in Resources */,
+				1C3208C81AF0B12400479804 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3208AA1AF0B0F200479804 /* ViewController.m in Sources */,
 				1C3208A71AF0B0F200479804 /* AppDelegate.m in Sources */,
+				1C3208CD1AF0B19300479804 /* MainViewController.m in Sources */,
+				1C3208D11AF0B50600479804 /* DaiSurvivor.m in Sources */,
 				1C3208A41AF0B0F200479804 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +261,6 @@
 			targetProxy = 1C3208B81AF0B0F200479804 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1C3208AB1AF0B0F200479804 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C3208AC1AF0B0F200479804 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C3208B01AF0B0F200479804 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C3208B11AF0B0F200479804 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C3208BF1AF0B0F200479804 /* Debug */ = {
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DaiSurvivor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DaiSurvivor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
