@@ -17,8 +17,14 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    __block int count = 0;
 	[DaiSurvivor shared].isNeedAliveInBackground = ^BOOL (void) {
-		return YES;
+        if (count++ < 3) {
+            return YES;
+        }
+        else {
+            return NO;
+        }
 	};
 	[DaiSurvivor shared].totalAliveTime = ^(NSTimeInterval aliveTime) {
 		NSLog(@"alive in background : %f sec", aliveTime);
